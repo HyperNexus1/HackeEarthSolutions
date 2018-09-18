@@ -1,3 +1,4 @@
+//this code works for hop==1 only
 #include <cstring> 
 #include <iostream>
 
