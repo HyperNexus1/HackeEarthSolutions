@@ -65,10 +65,11 @@ int main()
 	int query=0;
 	int q[201][3];
 	memset(matrix,0, sizeof(matrix[0][0]) * 201 * 201);
-	memset(visit, 0, sizeof(matrix[0][0]) * 201 * 201);
+	memset(visit, 0, sizeof(visit[0][0]) * 201 * 201);
 	memset(q, 0, sizeof(q[0][0] * 201 * 3));
 	//cout << "hi";
-	cin >> n;
+	
+	cin >> t;
 	cin >> n >> m;
 	for (int i=0;i<n;i++)
 	{
